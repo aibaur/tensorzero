@@ -8,13 +8,16 @@
     "clean:node": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
   },
   "devDependencies": {
+    "pyright": "^1.1.404",
     "typescript": "^5.8.2"
   },
   "packageManager": "pnpm@10.15.0",
   "pnpm": {
     "onlyBuiltDependencies": [
+      "@tailwindcss/oxide",
       "esbuild",
-      "msw"
+      "msw",
+      "storybook-addon-remix-react-router"
     ]
   }
 }

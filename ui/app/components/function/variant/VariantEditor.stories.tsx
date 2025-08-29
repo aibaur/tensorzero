@@ -255,7 +255,7 @@ export const WithTemplatesOnly: Story = {
               template: {
                 path: "templates/creative_user.jinja2",
                 contents: `Write a story about: {{ prompt }}
-    
+
     Requirements:
     - Length: {{ word_count }} words
     - Include these elements: {{ elements | join(", ") }}`,
@@ -266,9 +266,9 @@ export const WithTemplatesOnly: Story = {
               template: {
                 path: "templates/creative_assistant.jinja2",
                 contents: `Title: {{ title }}
-    
+
     {{ story }}
-    
+
     ---
     The End`,
               },
